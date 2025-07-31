@@ -22,9 +22,9 @@ Projeto simples para criação de tarefas!
  2. cp.env.exemple .env   -- Configure o arquivo .env caso necessário/ database: laravel
  3. No Xampp inicie o MySQL e acesse admin(phpMySql)
   1.Crie o banco com o mesmo nome configurado no database: laravel
- 4. $php artisan key:generate
- 5. $ php artisan migrate:fresh --seed    					# Esse comando apaga as tabelas e cria novas existentes
- 6. $php artisan serve							                #Iniciar servidor
+ 4. php artisan key:generate
+ 5. php artisan migrate:fresh --seed    					# Esse comando apaga as tabelas e cria novas existentes
+ 6. php artisan serve							                #Iniciar servidor
 
 
 ### Instalação (Front-end)
